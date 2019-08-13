@@ -24,6 +24,7 @@ remainder
 end
 
 def square_root(num)
-root = num ** (1.0/2.0)
-root
+#root = num ** (1.0/2.0)
+Math.sqrt(num)
+
 end
